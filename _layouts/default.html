@@ -78,7 +78,7 @@
     </style>
 	<script>
 	function myFunction() {
-	  var x = document.getElementById("sidebar");
+	  var x = document.getElementById("mybar");
 	  if (x.className === "sidebar") {
 	    x.className += " responsive";
 	  } else {
@@ -90,7 +90,7 @@
   </head>
   <body>
 
-    <div class="sidebar">
+    <div id="mybar" class="sidebar">
       <a id="home" class=" {{ page.homestatus }} " href=" {{ page.home }} ">Home</a>
       <a id="timeline" class=" {{ page.timestatus }} " href=" {{ page.blog }} ">TimeLine</a>
       <a id="contact" class=" {{ page.contactstatus }} " href=" {{ page.contact }} ">Contact</a>
