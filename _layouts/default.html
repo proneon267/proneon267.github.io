@@ -52,12 +52,27 @@
         div.content {margin-left: 0;}
       }
 
-      @media screen and (max-width: 400px) {
-        .sidebar a {
-          text-align: center;
-          float: none;
-        }
-      }
+      @media screen and (max-width: 600px) {
+  .sidebar a:not(:first-child) {display: none;}
+  .sidebar a.icon {
+    float: right;
+    display: block;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .sidebar.responsive {position: relative;}
+  .sidebar.responsive .icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  .sidebar.responsive a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+}
     </style>
   </head>
   <body>
