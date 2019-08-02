@@ -1,2 +1,4 @@
 name: proneon267
 markdown: kramdown
+plugins:
+  - jekyll-sitemap
