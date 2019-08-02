@@ -126,7 +126,7 @@
 	  }
 	}
 	function openNav() {
-	  document.getElementById("myNav").style.width = "100%";
+	  document.getElementById("sidebar").style.width = "100%";
 	}
 
 	function closeNav() {
@@ -141,7 +141,7 @@
       <a id="blog" class=" {{ page.blogstatus }} " href=" {{ page.blog }} ">TimeLine</a>
       <a id="contact" class=" {{ page.contactstatus }} " href=" {{ page.contact }} ">Contact</a>
       <a href="#about">About</a>
-      <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+      <a href="javascript:void(0);" class="icon" onclick="openNav()">
       <i>&#9776;</i>
   </a>
     </div>
