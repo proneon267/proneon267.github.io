@@ -1,6 +1,6 @@
 ---
-layout:post
-title: DEO-Direct English to Odia
+layout: post
+title: DEO
 date: 2019-08-08
 comments: true
 blogstatus: active
