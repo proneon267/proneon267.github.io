@@ -2,6 +2,8 @@
 layout:post
 title: DEO-Direct English to Odia
 date: 2019-08-08
+comments: true
+blogstatus: active
 ---
 # DEO - Direct English to Odia subsite word finder
 As an Odia language enthusiast, I spent considerable amount of time translating softwares to odia language. 
