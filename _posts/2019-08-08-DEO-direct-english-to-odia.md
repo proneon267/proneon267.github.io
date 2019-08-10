@@ -6,6 +6,7 @@ comments: true
 blogstatus: active
 --- 
 Check out the project: <https://proneon267.github.io/deo/>
+
 As an Odia language enthusiast, I spend considerable amount of time translating softwares to odia language. 
 Every now often, I come across technology related words which to be fair require a decent amount of work to
 find their substitudes in odia. And once you find the perfect substitude for that word, you wouldn't want your 
