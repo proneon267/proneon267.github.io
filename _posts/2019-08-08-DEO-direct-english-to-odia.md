@@ -1,11 +1,10 @@
 ---
 layout: post
-title: DEO
+title: DEO - Direct English to Odia subsite word finder
 date: 2019-08-08
 comments: true
 blogstatus: active
----
-# DEO - Direct English to Odia subsite word finder
+--- 
 As an Odia language enthusiast, I spend considerable amount of time translating softwares to odia language. 
 Every now often, I come across technology related words which to be fair require a decent amount of work to
 find their substitudes in odia. And once you find the perfect substitude for that word, you wouldn't want your 
