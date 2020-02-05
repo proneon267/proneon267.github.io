@@ -4,35 +4,37 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<title>{{ page.title }}</title>
     <style>
-    pre {
+            pre {
         position: relative;
         margin: 0 0 1.625em;
         white-space: pre;
         word-wrap: normal;
-        &:before {
-            position: absolute;
-            top: 0;
-            right: 0;
-            padding-right: .5em;
-            opacity: 1;
-            color: #fdf6e3;
-            line-height: 1.5;
-            cursor: default;
-            font-size: 1em;
-            }
-            code {
-            overflow-x: scroll;
-            display: block;
-            padding: 0 1em;
-            background: #268bd2;
-            background-image: linear-gradient(darken(#268bd2, 3%) 50%, transparent 50%);
-            background-size: 100% 3em;
-            background-position: 0 1.5em;
-            background-origin: content-box;
-            color: #fdf6e3;
-            line-height: 1.5;
-            font-size: 1em;
-    }}
+        }
+        pre:before {
+        position: absolute;
+        top: 0;
+        right: 0;
+        padding-right: 0.5em;
+        opacity: 1;
+        color: #fdf6e3;
+        line-height: 1.5;
+        cursor: default;
+        font-size: 1em;
+        }
+        pre code {
+        overflow-x: scroll;
+        display: block;
+        padding: 0 1em;
+        background: #657b83;
+        background-image: linear-gradient(#5e737a 50%, transparent 50%);
+        background-size: 100% 3em;
+        background-position: 0 1.5em;
+        background-origin: content-box;
+        color: #fdf6e3;
+        line-height: 1.5;
+        font-size: 1em;
+        }
+
     @font-face {   
         font-family: 'Lohit-Odia';
         src: local('./fonts/Lohit-Odia.woff') format('woff');
