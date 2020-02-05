@@ -5,7 +5,6 @@ date: 2020-02-05
 comments: true
 blogstatus: active
 ---
-# Fedora 31 Post-Installation
 I know you're thinking, why the bell isn't this a script? To which I would answer, running random scripts found on the internet can be lethal for your pc, I have experienced this and regret to this day. So be safe run each line manually.
 * Change DNF config:
 ```
@@ -76,16 +75,13 @@ I know you're thinking, why the bell isn't this a script? To which I would answe
     konqueror \                     ;Firefox is already included 
 ```
 * Other Recommended Softwares:
-
+```
  Stacer >>  System cleaner
- 
  Gravit designer    >>  Not free but still great vector art tool
- 
  brave-browser >> Best new google chrome alternative
-
+```
 * Browser Extensions:
-
+```
 AdBlocker Ultimate >> Block all ads, no acceptable ads
-
 Lastpass    >>  Great free password manager
-
+```
