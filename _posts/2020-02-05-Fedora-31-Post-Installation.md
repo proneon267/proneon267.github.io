@@ -75,13 +75,13 @@ I know you're thinking, why the bell isn't this a script? To which I would answe
     konqueror \                     ;Firefox is already included 
 {% endhighlight %}
 * Other Recommended Softwares:
-{% highlight bash %}
- Stacer >>  System cleaner
- Gravit designer    >>  Not free but still great vector art tool
- brave-browser >> Best new google chrome alternative
-{% endhighlight %}
+
+    * Stacer >>  System cleaner
+    * Gravit designer    >>  Not free but still great vector art tool
+    * brave-browser >> Best new google chrome alternative
+
 * Browser Extensions:
-{% highlight bash %}
-AdBlocker Ultimate >> Block all ads, no acceptable ads
-Lastpass    >>  Great free password manager
-{% endhighlight %}
+
+    * AdBlocker Ultimate >> Block all ads, no acceptable ads
+    * Lastpass    >>  Great free password manager
+
