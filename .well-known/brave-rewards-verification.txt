@@ -1,0 +1,4 @@
+This is a Brave Rewards publisher verification file.
+
+Domain: proneon267.github.io
+Token: 6ba2242f23fd62235425ffa13b3ca52b0b655cc28d957b6abf1de1e3b0ba3338
