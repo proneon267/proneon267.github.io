@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <style media="screen">
+
+.overlay {
+  height: 100%;
+  width: 0%;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: rgb(45,137,239);
+  background-color: rgba(45,137,239, 1);
+  overflow-y: hidden;
+  transition: 0.5s;
+}
+
+.overlay-content {
+  position: relative;
+  top: 25%;
+  width: 100%;
+  text-align: center;
+  margin-top: 30px;
+}
+
+.overlay a {
+  padding: 8px;
+  text-decoration: none;
+  font-size: 36px;
+  color: #f1f1f1;
+  display: block;
+  transition: 0.3s;
+}
+
+.overlay a:hover, .overlay a:focus {
+  color: #603CBA;
+}
+
+.overlay .closebtn {
+  position: absolute;
+  top: 20px;
+  right: 45px;
+  font-size: 60px;
+}
+
+@media screen and (max-height: 450px) {
+  .overlay {overflow-y: auto;}
+  .overlay a {font-size: 20px}
+  .overlay .closebtn {
+  font-size: 40px;
+  top: 15px;
+  right: 35px;
+  }
+}
+input[type=text]{
+  border: solid 2px #2D89EF;
+}
+
+    </style>
+    <script type="text/javascript">
+      function openNav() {
+  document.getElementById("myNav").style.width = "100%";
+}
+
+function closeNav() {
+  document.getElementById("myNav").style.width = "0%";
+}
+    </script>
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://www.w3schools.com/lib/w3-colors-metro.css">
+  </head>
+  <body>
+    <div id="myNav" class="overlay">
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+  <div class="overlay-content">
+    <a href="#">About</a>
+    <a href="#">Services</a>
+    <a href="#">Clients</a>
+    <a href="#">Contact</a>
+  </div>
+</div>
+
+<div class="w3-container w3-metro-blue">
+  <h3>
+    <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776;</span>
+    Dataset creator
+  </h3>
+</div>
+  <div>
+    <div class="w3-container w3-metro-dark-purple w3-padding">
+      <h5>Translate</h5>
+    </div>
+    <form class="w3-margin">
+      <label>ENGLISH</label>
+      <p class="w3-xlarge">The fox jumped over the lazy dog.</p>
+      <label>ODIA</label>
+      <input class="w3-input" type="text">
+    </form>
+    <div class="w3-container">
+      <div class="w3-padding-small">
+      <button class="w3-button w3-pink w3-hover-yellow">SKIP</button>&nbsp;
+      <button class="w3-button w3-blue w3-hover-light-green">SUBMIT</button>
+      </div>
+    </div>
+  </div>
+  </body>
+</html>
