@@ -21,6 +21,15 @@ then run
 {% highlight bash %}
     rm /var/run/sssd.pid
 {% endhighlight %}
+or if you get 
+{% highlight bash %}
+    Cannot open '/var/log/sssd/sssd.log' for reading: No such file or directory
+{% endhighlight %}
+then run 
+{% highlight bash %}
+    mkdir /var/log/sssd
+    systemctl -i reboot
+{% endhighlight %}
 then try to start and enable sssd.service
 {% highlight bash %}
     systemctl start sssd.service
