@@ -9,7 +9,7 @@ blogstatus: active
     Job for sssd.service failed because the control process exited with error code. 
     See “systemctl status sssd.service” and “journalctl -xe” for details.
 {% endhighlight %}
-
+Solution
 {% highlight bash %}
     tail -f /var/log/sssd/sssd.log
 {% endhighlight %}
