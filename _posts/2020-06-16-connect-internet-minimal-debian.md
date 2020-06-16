@@ -17,12 +17,12 @@ List the available network interfaces:
   ip link list
 {% endhighlight %}
 Then plug in your device and re-run the above command. You will see a new interface added to the list. 
-Note the device id. As an example, let the device id be ens0
+Note the device id. As an example, let the device id be **ens0**.
 
 Now edit {% highlight bash %} /etc/network/interfaces {% endhighlight %}
 Add the following to the file:
 {% highlight bash %}
-iface eth0 inet dhcp
+iface ens0 inet dhcp
 {% endhighlight %}
 Then as root, run the following:
 {% highlight bash %}
