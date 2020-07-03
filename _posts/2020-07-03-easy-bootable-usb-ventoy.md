@@ -13,7 +13,10 @@ Ventoy will make your USB drive bootable. But here is the twist, you don't need 
 {% highlight bash %}
 	sudo dnf install fuse-exfat
 {% endhighlight %}
-* Download Ventoy from https://github.com/ventoy/Ventoy/releases
+* Download Ventoy from 
+{% highlight bash %}
+        https://github.com/ventoy/Ventoy/releases
+{% endhighlight %}
 * Extract the zip and cd into the folder.
 * Find out the USB device file path. 
 {% highlight bash %}
