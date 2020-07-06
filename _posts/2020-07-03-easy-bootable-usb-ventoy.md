@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Easily create bootable usb with ventoy
+description: Bootable USB drive with ventoy on linux easily!
 date: 2020-07-03
 comments: true
 blogstatus: active
