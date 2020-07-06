@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Job for sssd.service failed because the control process exited with error code. 
+description: Easily solve Job for sssd.service failed because the control process exited with error code
 date: 2020-02-05
 comments: true
 blogstatus: active
