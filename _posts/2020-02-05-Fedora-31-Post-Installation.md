@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Fedora 31 Post-Installation
+description: Fedora 31 post installation on fedora linux
 date: 2020-02-05
 comments: true
 blogstatus: active
