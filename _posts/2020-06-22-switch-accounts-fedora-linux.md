@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Seamlessly switch between accounts in fedora linux
+description: Easily switch between accounts in tty on fedora linux!
 date: 2020-06-22
 comments: true
 blogstatus: active
