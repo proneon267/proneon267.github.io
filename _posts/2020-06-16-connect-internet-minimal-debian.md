@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Connect to internet with minimal debian linux
+description: Connect to internet with minimal debain installation from terminal or text console on linux
 date: 2020-06-16
 comments: true
 blogstatus: active
