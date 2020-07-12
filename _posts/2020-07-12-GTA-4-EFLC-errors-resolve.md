@@ -9,7 +9,7 @@ blogstatus: active
 
 So the other day, I installed GTA 4 and GTA Episodes from liberty city(EFLC). Everything worked great on the GTA 4 but, things weren't so good on the EFLC side. First, I got the xlive.dll missing error and, after that, I got the xnetStartup error. But above all, the game lagged like hell even with 4GB of VRAM and 8GB of DRAM. But here is the twist I couldn't find any solution on any forum for this and, I ended up with the cleanest and simple answer.
 * Download the Games for Windows Live(GFWL) from Microsoft.
-* Download and extract the RAR file onto the EFLC game folder.
+* Download and extract the RAR file onto the EFLC game folder [Xnetstartup-fix.rar](https://github.com/proneon267/proneon267.github.io/blob/master/files/Xnetstartup-fix.rar?raw=true).
 * Open commandline.txt file located in the game folder and add the following:
 {% highlight bash %}
 		-norestrictions
