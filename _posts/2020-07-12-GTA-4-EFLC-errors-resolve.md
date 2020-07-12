@@ -17,7 +17,7 @@ So the other day, I installed GTA 4 and GTA Episodes from liberty city(EFLC). Ev
 		-availablevidmem X
 {% endhighlight %}
 
-		where X is your VRAM. For example, for 2GB VRAM, do:
+where X is your VRAM. For example, for 2GB VRAM, do:
 		
 {%highlight bash%}
 		-availablevidmem 2048
