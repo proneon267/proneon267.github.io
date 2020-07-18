@@ -12,14 +12,14 @@ So the other day, I installed GTA 4 and GTA Episodes from liberty city(EFLC). Ev
 * Download and extract the RAR file onto the EFLC game folder [Xnetstartup-fix.rar](https://github.com/proneon267/proneon267.github.io/blob/master/files/Xnetstartup-fix.rar?raw=true).
 * Open commandline.txt file located in the game folder and add the following:
 {% highlight bash %}
-		-norestrictions
-		-nomemrestrict
-		-availablevidmem X
+-norestrictions
+-nomemrestrict
+-availablevidmem X
 {% endhighlight %}
 
 where X is your VRAM. For example, for 2GB VRAM, do:
 		
 {%highlight bash%}
-		-availablevidmem 2048
+-availablevidmem 2048
 {% endhighlight %}
 Done! 
