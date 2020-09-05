@@ -5,7 +5,7 @@ description: Welcome to proneon267
 ---
 <h1>Hi, I'm proneon267.</h1>
 <p>Enjoy your visit here</p>
-<div class="latest">
+<div class="latest nobullet">
 <b>Latest Posts:</b>
 {% for post in site.posts limit:5 %}
 	<li><span>{{ post.date | date_to_string }}</span> » <a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></li>
