@@ -10,9 +10,11 @@ blogstatus: active
 
 ## Using Dotnet and Native APIs:
 
+<hr>
+
 ### Directly creating and using a Graphics object
 
-**Graphics.DpiX Reference**: https://learn.microsoft.com/en-us/dotnet/api/system.drawing.graphics.dpix
+**Graphics.DpiX Reference**: <https://learn.microsoft.com/en-us/dotnet/api/system.drawing.graphics.dpix>
 
 {% highlight C# %}
 graphics = Graphics.FromHwnd(IntPtr.Zero)
@@ -27,8 +29,9 @@ DPI_SCALE_FACTOR = DPI / 96
 <hr>
 
 ### By creating and using a Graphics object from a Control object
-**Control Object Reference**: https://learn.microsoft.com/en-us/dotnet/api/system.windows.forms.control
-**Graphics.DpiX Reference**: https://learn.microsoft.com/en-us/dotnet/api/system.drawing.graphics.dpix
+**Control Object Reference**: <https://learn.microsoft.com/en-us/dotnet/api/system.windows.forms.control>
+
+**Graphics.DpiX Reference**: <https://learn.microsoft.com/en-us/dotnet/api/system.drawing.graphics.dpix>
 
 {% highlight C# %}
 graphics = Form.CreateGraphics()
@@ -43,8 +46,9 @@ DPI_SCALE_FACTOR = DPI / 96
 <hr>
 
 ### Using DeviceDpi from a Control object
-**Control Object Reference**: https://learn.microsoft.com/en-us/dotnet/api/system.windows.forms.control
-**DeviceDpi Reference**: https://learn.microsoft.com/en-us/dotnet/api/system.windows.forms.control.devicedpi
+**Control Object Reference**: <https://learn.microsoft.com/en-us/dotnet/api/system.windows.forms.control>
+
+**DeviceDpi Reference**: <https://learn.microsoft.com/en-us/dotnet/api/system.windows.forms.control.devicedpi>
 
 {% highlight C# %}
 DPI = Form.DeviceDpi 
@@ -55,8 +59,9 @@ DPI_SCALE_FACTOR = DPI / 96
 <hr>
 
 ### Using GetDeviceCaps
-**Graphics Reference**: https://learn.microsoft.com/en-us/dotnet/api/system.drawing.graphics
-**GetDeviceCaps Reference**: https://webcache.googleusercontent.com/search?q=cache:https%3A%2F%2Fwww.pinvoke.net%2Fdefault.aspx%2Fgdi32.getdevicecaps
+**Graphics Reference**: <https://learn.microsoft.com/en-us/dotnet/api/system.drawing.graphics>
+
+**GetDeviceCaps Reference**: <https://webcache.googleusercontent.com/search?q=cache:https%3A%2F%2Fwww.pinvoke.net%2Fdefault.aspx%2Fgdi32.getdevicecaps>
 
 {% highlight C# %}
 graphics = Graphics.FromHwnd(IntPtr.Zero)
@@ -76,26 +81,27 @@ DPI_SCALE_FACTOR = (DESKTOPHORZRES / HORZRES)
 <hr>
 
 ### Using GetSystemDpiForProcess
-**Reference**: https://learn.microsoft.com/en-us/windows/win32/api/winuser/nf-winuser-getsystemdpiforprocess
+**Reference**: <https://learn.microsoft.com/en-us/windows/win32/api/winuser/nf-winuser-getsystemdpiforprocess>
 
 **Value Updation: Not Tested yet**
 <hr>
 
 ### Using GetDpiForWindow
-**Reference**: https://learn.microsoft.com/en-us/windows/win32/api/winuser/nf-winuser-getdpiforwindow
+**Reference**: <https://learn.microsoft.com/en-us/windows/win32/api/winuser/nf-winuser-getdpiforwindow>
 
 **Value Updation: Not Tested yet**
 <hr>
 
 ### Using GetDpiForSystem
-**Reference**: https://learn.microsoft.com/en-us/windows/win32/api/winuser/nf-winuser-getdpiforsystem
+**Reference**: <https://learn.microsoft.com/en-us/windows/win32/api/winuser/nf-winuser-getdpiforsystem>
 
 **Value Updation: Not Tested yet**
 <hr>
 
 ### Using GetScaleFactorForMonitor
-**MonitorFromRect Reference**: https://learn.microsoft.com/en-us/windows/win32/api/winuser/nf-winuser-monitorfromrect
-**GetScaleFactorForMonitor Reference**: https://learn.microsoft.com/en-us/windows/win32/api/shellscalingapi/nf-shellscalingapi-getscalefactorformonitor
+**MonitorFromRect Reference**: <https://learn.microsoft.com/en-us/windows/win32/api/winuser/nf-winuser-monitorfromrect>
+
+**GetScaleFactorForMonitor Reference**: <https://learn.microsoft.com/en-us/windows/win32/api/shellscalingapi/nf-shellscalingapi-getscalefactorformonitor>
 
 {% highlight C# %}
 screen = Screen.PrimaryScreen
@@ -121,6 +127,8 @@ It should be noted that some of these APIs report the correct values only when t
 <hr>
 
 ## Using Registry Keys:
+
+<hr>
 
 #### LogPixels:
 The values of the key correspond to the DPI settings of the system:
