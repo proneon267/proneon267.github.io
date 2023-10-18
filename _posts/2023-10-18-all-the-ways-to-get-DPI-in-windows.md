@@ -1,4 +1,3 @@
-
 ---
 layout: post
 title: All ways to get DPI in Windows using Dotnet Framework, Native APIs & Registry.
@@ -8,7 +7,8 @@ comments: true
 blogstatus: active
 ---
 
-### Using Dotnet and Native APIs:
+## Using Dotnet and Native APIs:
+<hr>
 
 ### Directly creating and using a Graphics object
 
