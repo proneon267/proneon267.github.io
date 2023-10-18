@@ -7,6 +7,8 @@ comments: true
 blogstatus: active
 ---
 
+The following are all the ways to get the DPI on Windows using Dotnet, Native APIs & Registry keys.
+
 ## Using Dotnet and Native APIs:
 <hr>
 
