@@ -8,9 +8,7 @@ comments: true
 blogstatus: active
 ---
 
-## Using Dotnet and Native APIs:
-
-<hr>
+### Using Dotnet and Native APIs:
 
 ### Directly creating and using a Graphics object
 
