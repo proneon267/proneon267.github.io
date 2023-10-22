@@ -89,6 +89,11 @@ DPI_SCALE_FACTOR = (DESKTOPHORZRES / HORZRES)
 ### Using GetDpiForWindow
 **Reference**: <https://learn.microsoft.com/en-us/windows/win32/api/winuser/nf-winuser-getdpiforwindow>
 
+{% highlight C# %}
+NewDpi = GetDpiForWindow(Form.Handle())
+NewDpiScaleFactor = NewDpi / 96
+{% endhighlight %}
+
 **Value Updation: Not Tested yet**
 <hr>
 
@@ -96,6 +101,17 @@ DPI_SCALE_FACTOR = (DESKTOPHORZRES / HORZRES)
 **Reference**: <https://learn.microsoft.com/en-us/windows/win32/api/winuser/nf-winuser-getdpiforsystem>
 
 **Value Updation: Not Tested yet**
+<hr>
+
+### Using DeviceDpiNew:
+
+**Reference**: <https://learn.microsoft.com/en-us/dotnet/api/system.windows.forms.dpichangedeventargs.devicedpinew>
+
+{% highlight C# %}
+OnDpiChanged (System.Windows.Forms.DpiChangedEventArgs e)
+NewDpi = e.DeviceDpiNew
+NewDpiScaleFactor = NewDpi / 96
+{% endhighlight %}
 <hr>
 
 ### Using GetScaleFactorForMonitor
