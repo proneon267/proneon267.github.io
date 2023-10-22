@@ -8,6 +8,7 @@ blogstatus: active
 ---
 
 Here are 7 simple steps to set up High DPI scaling for a Dotnet App on Windows:
+<hr>
 
 ## Step 1: Declare DPI Awareness mode for the app
 <hr>
@@ -161,6 +162,8 @@ NewDpiScaleFactor = pScale / 100
 <hr>
 
 ## Step 3: Use the DPI scale factor to draw elements
+<hr>
+
 It is useful to store the original ScaleFactor at which the app was started. This will help in removing any cumulative effect of the scaling factor on the value of the element.
 
 The DPI scaling is done in 2 steps:
@@ -171,6 +174,8 @@ new_value = old_value * scale_factor
 <hr>
 
 ## Step 4: Use the DPI scale factor to draw fonts
+<hr>
+
 It is useful to store the original font, as updating the font size requires the creating of a new font object. First, calculate the scale factor in the same way as for elements and then multiply it with the original font size.
 
 {% highlight C# %}
@@ -186,6 +191,8 @@ NewFont = Font(
 <hr>
 
 ## Step 5: Add event handler to detect DPI changes
+<hr>
+
 There are 4 main event handlers to detect DPI changes:
 
 ### DpiChangedAfterParent
@@ -212,9 +219,12 @@ Although it is recommended to use DpiChangedAfterParent, DpiChangedAfterParent, 
 <hr>
 
 ## Step 6: Redraw elements and fonts on detecting a DPI change
+<hr>
 
 On detecting a new DPI change, calculate the new scaling factor and use it to redraw elements and fonts in their appropriate sizes.
+<hr>
 
 ## Step 7: Done!
+<hr>
 
 That's it you are done :)
