@@ -7,7 +7,7 @@ comments: true
 blogstatus: active
 ---
 
-It seems that directly overriding `WndProc()` method on the `Form` control in `WinForms`is not supported: https://github.com/pythonnet/pythonnet/issues/2536. However, I have found that we can use win32 APIs directly to do so:
+It seems that directly overriding `WndProc()` method on the `Form` control in `WinForms`is not supported: [https://github.com/pythonnet/pythonnet/issues/2536](https://github.com/pythonnet/pythonnet/issues/2536). However, I have found that we can use win32 APIs directly to do so:
 <hr>
 {% highlight python %}
 import clr
